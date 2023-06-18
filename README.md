@@ -10,8 +10,12 @@ The rainfall dataset which contains observations of weather metrics for each day
 
 ## Evaluation Matrix
 - Accuracy Score
+  -  Ratio of the number of correct predictions to the total number of predictions
 - Jaccard Index
+  - Measures the similarity between the predicted and true class labels
+  - A high Jaccard index indicates a high degree of agreement or overlap between the predicted and true class label
 - F1 Score
+  - Combines both precision (the ratio of true positives to the sum of true positives and false positives) and recall (the ratio of true positives to the sum of true positives and false negatives) into a single metric
 - LogLoss
 - Mean Absolute Error
 - Mean Squared Error
@@ -21,5 +25,4 @@ The rainfall dataset which contains observations of weather metrics for each day
 ![image](https://github.com/ShinYingChua/Rain-Prediction-In-Australia/assets/101923627/ca75238f-aa9f-4dcc-a094-5c9132f40096)
 
 ## Conclusion
-Logistic Regession is the best ML model for predicting rain 
-
+The best performing model is Logistic Regression model with highest accuracy score of 83%, highest jaccard index of 50% and highest F1 score of 67%.
